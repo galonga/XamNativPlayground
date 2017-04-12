@@ -6,6 +6,7 @@
 [Bb]in/
 packages/
 TestResults/
+Resource.designer.cs
 
 # globs
 Makefile.in

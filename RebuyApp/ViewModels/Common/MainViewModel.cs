@@ -42,19 +42,28 @@ namespace RebuyApp.ViewModels.Common
         {
             HamburgerMenuNavigationCommand = new MvxCommand<int>(NavigateToViewModel);
             //SearchCommand = new MvxCommand(ExecuteSearch);
-            //GoToUserProfileCommand = new MvxCommand(ShowCurrentUserProfile);
+            //GoToUserProfileCommand = new MvxCommand(MyAccount);
         }
 
         public void NavigateToViewModel(int index)
         {
             switch (index) {
                 //case 0:
-                //    ShowViewModel<EventsViewModel>();
+                //    ShowViewModel<BlueStartViewModel>();
                 //    break;
                 //case 1:
-                //    ShowViewModel<NotificationsViewModel>();
+                //    ShowViewModel<GreenStartViewModel();
                 //    break;
                 //case 2:
+                //    ShowViewModel<BuyAlertViewModel>();
+                //    break;
+                //case 3:
+                //    ShowViewModel<WishListViewModel();
+                //    break;
+                //case 4:
+                //    ShowViewModel<Notific();
+                //    break;
+                //case 5:
                 //    ShowViewModel<SettingsViewModel>();
                 //    break;
             }
