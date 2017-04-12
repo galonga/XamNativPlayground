@@ -70,6 +70,126 @@ namespace RebuyApp.Droid
 			global::MvvmCross.Droid.Support.Fragment.Resource.Styleable.MvxListView = global::RebuyApp.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Droid.Support.Fragment.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::RebuyApp.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.Fragment.Resource.Styleable.MvxListView_MvxItemTemplate = global::RebuyApp.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::HockeyApp.Resource.Color.hockeyapp_background_header = global::RebuyApp.Droid.Resource.Color.hockeyapp_background_header;
+			global::HockeyApp.Resource.Color.hockeyapp_background_light = global::RebuyApp.Droid.Resource.Color.hockeyapp_background_light;
+			global::HockeyApp.Resource.Color.hockeyapp_background_white = global::RebuyApp.Droid.Resource.Color.hockeyapp_background_white;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background = global::RebuyApp.Droid.Resource.Color.hockeyapp_button_background;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_pressed = global::RebuyApp.Droid.Resource.Color.hockeyapp_button_background_pressed;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_selected = global::RebuyApp.Droid.Resource.Color.hockeyapp_button_background_selected;
+			global::HockeyApp.Resource.Color.hockeyapp_text_black = global::RebuyApp.Droid.Resource.Color.hockeyapp_text_black;
+			global::HockeyApp.Resource.Color.hockeyapp_text_light = global::RebuyApp.Droid.Resource.Color.hockeyapp_text_light;
+			global::HockeyApp.Resource.Color.hockeyapp_text_normal = global::RebuyApp.Droid.Resource.Color.hockeyapp_text_normal;
+			global::HockeyApp.Resource.Color.hockeyapp_text_white = global::RebuyApp.Droid.Resource.Color.hockeyapp_text_white;
+			global::HockeyApp.Resource.Drawable.hockeyapp_btn_background = global::RebuyApp.Droid.Resource.Drawable.hockeyapp_btn_background;
+			global::HockeyApp.Resource.Id.button_add_response = global::RebuyApp.Droid.Resource.Id.button_add_response;
+			global::HockeyApp.Resource.Id.button_attachment = global::RebuyApp.Droid.Resource.Id.button_attachment;
+			global::HockeyApp.Resource.Id.button_login = global::RebuyApp.Droid.Resource.Id.button_login;
+			global::HockeyApp.Resource.Id.button_refresh = global::RebuyApp.Droid.Resource.Id.button_refresh;
+			global::HockeyApp.Resource.Id.button_send = global::RebuyApp.Droid.Resource.Id.button_send;
+			global::HockeyApp.Resource.Id.button_update = global::RebuyApp.Droid.Resource.Id.button_update;
+			global::HockeyApp.Resource.Id.input_email = global::RebuyApp.Droid.Resource.Id.input_email;
+			global::HockeyApp.Resource.Id.input_message = global::RebuyApp.Droid.Resource.Id.input_message;
+			global::HockeyApp.Resource.Id.input_name = global::RebuyApp.Droid.Resource.Id.input_name;
+			global::HockeyApp.Resource.Id.input_password = global::RebuyApp.Droid.Resource.Id.input_password;
+			global::HockeyApp.Resource.Id.input_subject = global::RebuyApp.Droid.Resource.Id.input_subject;
+			global::HockeyApp.Resource.Id.label_author = global::RebuyApp.Droid.Resource.Id.label_author;
+			global::HockeyApp.Resource.Id.label_date = global::RebuyApp.Droid.Resource.Id.label_date;
+			global::HockeyApp.Resource.Id.label_last_updated = global::RebuyApp.Droid.Resource.Id.label_last_updated;
+			global::HockeyApp.Resource.Id.label_message = global::RebuyApp.Droid.Resource.Id.label_message;
+			global::HockeyApp.Resource.Id.label_text = global::RebuyApp.Droid.Resource.Id.label_text;
+			global::HockeyApp.Resource.Id.label_title = global::RebuyApp.Droid.Resource.Id.label_title;
+			global::HockeyApp.Resource.Id.label_version = global::RebuyApp.Droid.Resource.Id.label_version;
+			global::HockeyApp.Resource.Id.list_attachments = global::RebuyApp.Droid.Resource.Id.list_attachments;
+			global::HockeyApp.Resource.Id.list_feedback_messages = global::RebuyApp.Droid.Resource.Id.list_feedback_messages;
+			global::HockeyApp.Resource.Id.text_headline = global::RebuyApp.Droid.Resource.Id.text_headline;
+			global::HockeyApp.Resource.Id.view_header = global::RebuyApp.Droid.Resource.Id.view_header;
+			global::HockeyApp.Resource.Id.web_update_details = global::RebuyApp.Droid.Resource.Id.web_update_details;
+			global::HockeyApp.Resource.Id.wrapper_attachments = global::RebuyApp.Droid.Resource.Id.wrapper_attachments;
+			global::HockeyApp.Resource.Id.wrapper_feedback = global::RebuyApp.Droid.Resource.Id.wrapper_feedback;
+			global::HockeyApp.Resource.Id.wrapper_feedback_scroll = global::RebuyApp.Droid.Resource.Id.wrapper_feedback_scroll;
+			global::HockeyApp.Resource.Id.wrapper_messages = global::RebuyApp.Droid.Resource.Id.wrapper_messages;
+			global::HockeyApp.Resource.Id.wrapper_messages_buttons = global::RebuyApp.Droid.Resource.Id.wrapper_messages_buttons;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_expiry_info = global::RebuyApp.Droid.Resource.Layout.hockeyapp_activity_expiry_info;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_feedback = global::RebuyApp.Droid.Resource.Layout.hockeyapp_activity_feedback;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_login = global::RebuyApp.Droid.Resource.Layout.hockeyapp_activity_login;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_update = global::RebuyApp.Droid.Resource.Layout.hockeyapp_activity_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_fragment_update = global::RebuyApp.Droid.Resource.Layout.hockeyapp_fragment_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_view_feedback_message = global::RebuyApp.Droid.Resource.Layout.hockeyapp_view_feedback_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_app_name_fallback = global::RebuyApp.Droid.Resource.String.hockeyapp_crash_dialog_app_name_fallback;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_message = global::RebuyApp.Droid.Resource.String.hockeyapp_crash_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_negative_button = global::RebuyApp.Droid.Resource.String.hockeyapp_crash_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_neutral_button = global::RebuyApp.Droid.Resource.String.hockeyapp_crash_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_positive_button = global::RebuyApp.Droid.Resource.String.hockeyapp_crash_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_title = global::RebuyApp.Droid.Resource.String.hockeyapp_crash_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_message = global::RebuyApp.Droid.Resource.String.hockeyapp_dialog_error_message;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_title = global::RebuyApp.Droid.Resource.String.hockeyapp_dialog_error_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_negative_button = global::RebuyApp.Droid.Resource.String.hockeyapp_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_positive_button = global::RebuyApp.Droid.Resource.String.hockeyapp_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_message = global::RebuyApp.Droid.Resource.String.hockeyapp_download_failed_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_negative_button = global::RebuyApp.Droid.Resource.String.hockeyapp_download_failed_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_positive_button = global::RebuyApp.Droid.Resource.String.hockeyapp_download_failed_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_title = global::RebuyApp.Droid.Resource.String.hockeyapp_download_failed_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_error_no_network_message = global::RebuyApp.Droid.Resource.String.hockeyapp_error_no_network_message;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_text = global::RebuyApp.Droid.Resource.String.hockeyapp_expiry_info_text;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_title = global::RebuyApp.Droid.Resource.String.hockeyapp_expiry_info_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_file = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_attach_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_picture = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_attach_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_button_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_attachment_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_attachment_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_loading = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_attachment_loading;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_email_hint = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_failed_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_title = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_failed_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_fetching_feedback_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_fetching_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_generic_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_last_updated_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_last_updated_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_max_attachments_allowed = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_max_attachments_allowed;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_message_hint = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_message_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_name_hint = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_name_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_refresh_button_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_refresh_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_response_button_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_response_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_file = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_select_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_picture = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_select_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_button_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_send_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_generic_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_send_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_network_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_send_network_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_sending_feedback_text = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_sending_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_subject_hint = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_subject_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_title = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_empty = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_validate_email_empty;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_validate_email_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_name_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_validate_name_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_subject_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_validate_subject_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_text_error = global::RebuyApp.Droid.Resource.String.hockeyapp_feedback_validate_text_error;
+			global::HockeyApp.Resource.String.hockeyapp_login_email_hint = global::RebuyApp.Droid.Resource.String.hockeyapp_login_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text = global::RebuyApp.Droid.Resource.String.hockeyapp_login_headline_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text_email_only = global::RebuyApp.Droid.Resource.String.hockeyapp_login_headline_text_email_only;
+			global::HockeyApp.Resource.String.hockeyapp_login_login_button_text = global::RebuyApp.Droid.Resource.String.hockeyapp_login_login_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_missing_credentials_toast = global::RebuyApp.Droid.Resource.String.hockeyapp_login_missing_credentials_toast;
+			global::HockeyApp.Resource.String.hockeyapp_login_password_hint = global::RebuyApp.Droid.Resource.String.hockeyapp_login_password_hint;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_message = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_negative_button = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_neutral_button = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_positive_button = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_indicator_toast = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_indicator_toast;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_clear = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_menu_clear;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_save = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_menu_save;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_undo = global::RebuyApp.Droid.Resource.String.hockeyapp_paint_menu_undo;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_negative_button = global::RebuyApp.Droid.Resource.String.hockeyapp_permission_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_positive_button = global::RebuyApp.Droid.Resource.String.hockeyapp_permission_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_message = global::RebuyApp.Droid.Resource.String.hockeyapp_permission_update_message;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_title = global::RebuyApp.Droid.Resource.String.hockeyapp_permission_update_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_button = global::RebuyApp.Droid.Resource.String.hockeyapp_update_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_message = global::RebuyApp.Droid.Resource.String.hockeyapp_update_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_negative_button = global::RebuyApp.Droid.Resource.String.hockeyapp_update_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_positive_button = global::RebuyApp.Droid.Resource.String.hockeyapp_update_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_title = global::RebuyApp.Droid.Resource.String.hockeyapp_update_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_mandatory_toast = global::RebuyApp.Droid.Resource.String.hockeyapp_update_mandatory_toast;
+			global::HockeyApp.Resource.String.hockeyapp_update_version_details_label = global::RebuyApp.Droid.Resource.String.hockeyapp_update_version_details_label;
+			global::HockeyApp.Resource.String.library_name = global::RebuyApp.Droid.Resource.String.library_name;
+			global::HockeyApp.Resource.Style.HockeyApp_ButtonStyle = global::RebuyApp.Droid.Resource.Style.HockeyApp_ButtonStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_EditTextStyle = global::RebuyApp.Droid.Resource.Style.HockeyApp_EditTextStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_SingleLineInputStyle = global::RebuyApp.Droid.Resource.Style.HockeyApp_SingleLineInputStyle;
 		}
 		
 		public partial class Animation
@@ -1092,44 +1212,44 @@ namespace RebuyApp.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a0057
-			public const int abc_background_cache_hint_selector_material_dark = 2131361879;
+			// aapt resource value: 0x7f0a0061
+			public const int abc_background_cache_hint_selector_material_dark = 2131361889;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int abc_background_cache_hint_selector_material_light = 2131361880;
+			// aapt resource value: 0x7f0a0062
+			public const int abc_background_cache_hint_selector_material_light = 2131361890;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int abc_btn_colored_borderless_text_material = 2131361881;
+			// aapt resource value: 0x7f0a0063
+			public const int abc_btn_colored_borderless_text_material = 2131361891;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int abc_btn_colored_text_material = 2131361882;
+			// aapt resource value: 0x7f0a0064
+			public const int abc_btn_colored_text_material = 2131361892;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int abc_color_highlight_material = 2131361883;
+			// aapt resource value: 0x7f0a0065
+			public const int abc_color_highlight_material = 2131361893;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int abc_hint_foreground_material_dark = 2131361884;
+			// aapt resource value: 0x7f0a0066
+			public const int abc_hint_foreground_material_dark = 2131361894;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int abc_hint_foreground_material_light = 2131361885;
+			// aapt resource value: 0x7f0a0067
+			public const int abc_hint_foreground_material_light = 2131361895;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int abc_input_method_navigation_guard = 2131361810;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int abc_primary_text_disable_only_material_dark = 2131361886;
+			// aapt resource value: 0x7f0a0068
+			public const int abc_primary_text_disable_only_material_dark = 2131361896;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int abc_primary_text_disable_only_material_light = 2131361887;
+			// aapt resource value: 0x7f0a0069
+			public const int abc_primary_text_disable_only_material_light = 2131361897;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int abc_primary_text_material_dark = 2131361888;
+			// aapt resource value: 0x7f0a006a
+			public const int abc_primary_text_material_dark = 2131361898;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int abc_primary_text_material_light = 2131361889;
+			// aapt resource value: 0x7f0a006b
+			public const int abc_primary_text_material_light = 2131361899;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int abc_search_url_text = 2131361890;
+			// aapt resource value: 0x7f0a006c
+			public const int abc_search_url_text = 2131361900;
 			
 			// aapt resource value: 0x7f0a0013
 			public const int abc_search_url_text_normal = 2131361811;
@@ -1140,32 +1260,32 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0015
 			public const int abc_search_url_text_selected = 2131361813;
 			
-			// aapt resource value: 0x7f0a0063
-			public const int abc_secondary_text_material_dark = 2131361891;
+			// aapt resource value: 0x7f0a006d
+			public const int abc_secondary_text_material_dark = 2131361901;
 			
-			// aapt resource value: 0x7f0a0064
-			public const int abc_secondary_text_material_light = 2131361892;
+			// aapt resource value: 0x7f0a006e
+			public const int abc_secondary_text_material_light = 2131361902;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int abc_tint_btn_checkable = 2131361893;
+			// aapt resource value: 0x7f0a006f
+			public const int abc_tint_btn_checkable = 2131361903;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int abc_tint_default = 2131361894;
+			// aapt resource value: 0x7f0a0070
+			public const int abc_tint_default = 2131361904;
 			
-			// aapt resource value: 0x7f0a0067
-			public const int abc_tint_edittext = 2131361895;
+			// aapt resource value: 0x7f0a0071
+			public const int abc_tint_edittext = 2131361905;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int abc_tint_seek_thumb = 2131361896;
+			// aapt resource value: 0x7f0a0072
+			public const int abc_tint_seek_thumb = 2131361906;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int abc_tint_spinner = 2131361897;
+			// aapt resource value: 0x7f0a0073
+			public const int abc_tint_spinner = 2131361907;
 			
-			// aapt resource value: 0x7f0a006a
-			public const int abc_tint_switch_thumb = 2131361898;
+			// aapt resource value: 0x7f0a0074
+			public const int abc_tint_switch_thumb = 2131361908;
 			
-			// aapt resource value: 0x7f0a006b
-			public const int abc_tint_switch_track = 2131361899;
+			// aapt resource value: 0x7f0a0075
+			public const int abc_tint_switch_track = 2131361909;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int accent_material_dark = 2131361814;
@@ -1209,23 +1329,23 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0023
 			public const int button_material_light = 2131361827;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int colorAccent = 2131361872;
+			// aapt resource value: 0x7f0a005a
+			public const int colorAccent = 2131361882;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int colorPrimary = 2131361868;
+			// aapt resource value: 0x7f0a0056
+			public const int colorPrimary = 2131361878;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int colorPrimaryDark = 2131361869;
+			// aapt resource value: 0x7f0a0057
+			public const int colorPrimaryDark = 2131361879;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int colorPrimaryLight = 2131361871;
+			// aapt resource value: 0x7f0a0059
+			public const int colorPrimaryLight = 2131361881;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int colorPrimarySuperDark = 2131361870;
+			// aapt resource value: 0x7f0a0058
+			public const int colorPrimarySuperDark = 2131361880;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int common_google_signin_btn_text_dark = 2131361900;
+			// aapt resource value: 0x7f0a0076
+			public const int common_google_signin_btn_text_dark = 2131361910;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int common_google_signin_btn_text_dark_default = 2131361801;
@@ -1239,8 +1359,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a000c
 			public const int common_google_signin_btn_text_dark_pressed = 2131361804;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int common_google_signin_btn_text_light = 2131361901;
+			// aapt resource value: 0x7f0a0077
+			public const int common_google_signin_btn_text_light = 2131361911;
 			
 			// aapt resource value: 0x7f0a000d
 			public const int common_google_signin_btn_text_light_default = 2131361805;
@@ -1254,8 +1374,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int common_google_signin_btn_text_light_pressed = 2131361808;
 			
-			// aapt resource value: 0x7f0a0053
-			public const int defaultText = 2131361875;
+			// aapt resource value: 0x7f0a005d
+			public const int defaultText = 2131361885;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int design_fab_shadow_end_color = 2131361792;
@@ -1296,8 +1416,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0027
 			public const int dim_foreground_material_light = 2131361831;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int divider = 2131361876;
+			// aapt resource value: 0x7f0a005e
+			public const int divider = 2131361886;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int foreground_material_dark = 2131361832;
@@ -1310,6 +1430,36 @@ namespace RebuyApp.Droid
 			
 			// aapt resource value: 0x7f0a002b
 			public const int highlighted_text_material_light = 2131361835;
+			
+			// aapt resource value: 0x7f0a004c
+			public const int hockeyapp_background_header = 2131361868;
+			
+			// aapt resource value: 0x7f0a004d
+			public const int hockeyapp_background_light = 2131361869;
+			
+			// aapt resource value: 0x7f0a004e
+			public const int hockeyapp_background_white = 2131361870;
+			
+			// aapt resource value: 0x7f0a004f
+			public const int hockeyapp_button_background = 2131361871;
+			
+			// aapt resource value: 0x7f0a0050
+			public const int hockeyapp_button_background_pressed = 2131361872;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int hockeyapp_button_background_selected = 2131361873;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int hockeyapp_text_black = 2131361874;
+			
+			// aapt resource value: 0x7f0a0053
+			public const int hockeyapp_text_light = 2131361875;
+			
+			// aapt resource value: 0x7f0a0054
+			public const int hockeyapp_text_normal = 2131361876;
+			
+			// aapt resource value: 0x7f0a0055
+			public const int hockeyapp_text_white = 2131361877;
 			
 			// aapt resource value: 0x7f0a002c
 			public const int material_blue_grey_800 = 2131361836;
@@ -1356,8 +1506,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0039
 			public const int notification_material_background_media_default_color = 2131361849;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int primaryText = 2131361873;
+			// aapt resource value: 0x7f0a005b
+			public const int primaryText = 2131361883;
 			
 			// aapt resource value: 0x7f0a003a
 			public const int primary_dark_material_dark = 2131361850;
@@ -1389,8 +1539,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0043
 			public const int ripple_material_light = 2131361859;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int secondaryText = 2131361874;
+			// aapt resource value: 0x7f0a005c
+			public const int secondaryText = 2131361884;
 			
 			// aapt resource value: 0x7f0a0044
 			public const int secondary_text_default_material_dark = 2131361860;
@@ -1404,8 +1554,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0047
 			public const int secondary_text_disabled_material_light = 2131361863;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int splash_background = 2131361878;
+			// aapt resource value: 0x7f0a0060
+			public const int splash_background = 2131361888;
 			
 			// aapt resource value: 0x7f0a0048
 			public const int switch_thumb_disabled_material_dark = 2131361864;
@@ -1413,11 +1563,11 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a0049
 			public const int switch_thumb_disabled_material_light = 2131361865;
 			
-			// aapt resource value: 0x7f0a006e
-			public const int switch_thumb_material_dark = 2131361902;
+			// aapt resource value: 0x7f0a0078
+			public const int switch_thumb_material_dark = 2131361912;
 			
-			// aapt resource value: 0x7f0a006f
-			public const int switch_thumb_material_light = 2131361903;
+			// aapt resource value: 0x7f0a0079
+			public const int switch_thumb_material_light = 2131361913;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int switch_thumb_normal_material_dark = 2131361866;
@@ -1425,8 +1575,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0a004b
 			public const int switch_thumb_normal_material_light = 2131361867;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int white = 2131361877;
+			// aapt resource value: 0x7f0a005f
+			public const int white = 2131361887;
 			
 			static Color()
 			{
@@ -2154,40 +2304,43 @@ namespace RebuyApp.Droid
 			public const int design_snackbar_background = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_action_background = 2130837610;
+			public const int hockeyapp_btn_background = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg = 2130837611;
+			public const int notification_action_background = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_low = 2130837612;
+			public const int notification_bg = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_low_normal = 2130837613;
+			public const int notification_bg_low = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_low_pressed = 2130837614;
+			public const int notification_bg_low_normal = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_bg_normal = 2130837615;
+			public const int notification_bg_low_pressed = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_bg_normal_pressed = 2130837616;
+			public const int notification_bg_normal = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_icon_background = 2130837617;
-			
-			// aapt resource value: 0x7f020074
-			public const int notification_template_icon_bg = 2130837620;
-			
-			// aapt resource value: 0x7f020075
-			public const int notification_template_icon_low_bg = 2130837621;
+			public const int notification_bg_normal_pressed = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int notification_tile_bg = 2130837618;
+			public const int notification_icon_background = 2130837618;
+			
+			// aapt resource value: 0x7f020075
+			public const int notification_template_icon_bg = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int notification_template_icon_low_bg = 2130837622;
 			
 			// aapt resource value: 0x7f020073
-			public const int notify_panel_notification_icon_bg = 2130837619;
+			public const int notification_tile_bg = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int notify_panel_notification_icon_bg = 2130837620;
 			
 			static Drawable()
 			{
@@ -2208,8 +2361,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b000c
 			public const int MvxBindingTagUnique = 2131427340;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int action0 = 2131427458;
+			// aapt resource value: 0x7f0b009e
+			public const int action0 = 2131427486;
 			
 			// aapt resource value: 0x7f0b0068
 			public const int action_bar = 2131427432;
@@ -2232,17 +2385,17 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0045
 			public const int action_bar_title = 2131427397;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int action_container = 2131427455;
+			// aapt resource value: 0x7f0b009b
+			public const int action_container = 2131427483;
 			
 			// aapt resource value: 0x7f0b0069
 			public const int action_context_bar = 2131427433;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int action_divider = 2131427462;
+			// aapt resource value: 0x7f0b00a2
+			public const int action_divider = 2131427490;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int action_image = 2131427456;
+			// aapt resource value: 0x7f0b009c
+			public const int action_image = 2131427484;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int action_menu_divider = 2131427332;
@@ -2259,11 +2412,11 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0047
 			public const int action_mode_close_button = 2131427399;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int action_text = 2131427457;
+			// aapt resource value: 0x7f0b009d
+			public const int action_text = 2131427485;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int actions = 2131427471;
+			// aapt resource value: 0x7f0b00ab
+			public const int actions = 2131427499;
 			
 			// aapt resource value: 0x7f0b0048
 			public const int activity_chooser_view_content = 2131427400;
@@ -2295,8 +2448,26 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b004f
 			public const int buttonPanel = 2131427407;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int cancel_action = 2131427459;
+			// aapt resource value: 0x7f0b008b
+			public const int button_add_response = 2131427467;
+			
+			// aapt resource value: 0x7f0b0086
+			public const int button_attachment = 2131427462;
+			
+			// aapt resource value: 0x7f0b0090
+			public const int button_login = 2131427472;
+			
+			// aapt resource value: 0x7f0b008c
+			public const int button_refresh = 2131427468;
+			
+			// aapt resource value: 0x7f0b0087
+			public const int button_send = 2131427463;
+			
+			// aapt resource value: 0x7f0b0094
+			public const int button_update = 2131427476;
+			
+			// aapt resource value: 0x7f0b009f
+			public const int cancel_action = 2131427487;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int center = 2131427350;
@@ -2310,8 +2481,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b005f
 			public const int checkbox = 2131427423;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int chronometer = 2131427467;
+			// aapt resource value: 0x7f0b00a7
+			public const int chronometer = 2131427495;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int clip_horizontal = 2131427359;
@@ -2361,8 +2532,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0019
 			public const int end = 2131427353;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int end_padder = 2131427477;
+			// aapt resource value: 0x7f0b00b1
+			public const int end_padder = 2131427505;
 			
 			// aapt resource value: 0x7f0b000d
 			public const int enterAlways = 2131427341;
@@ -2400,8 +2571,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b004d
 			public const int icon = 2131427405;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int icon_group = 2131427472;
+			// aapt resource value: 0x7f0b00ac
+			public const int icon_group = 2131427500;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int icon_only = 2131427369;
@@ -2412,11 +2583,47 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b004a
 			public const int image = 2131427402;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int info = 2131427468;
+			// aapt resource value: 0x7f0b00a8
+			public const int info = 2131427496;
+			
+			// aapt resource value: 0x7f0b0082
+			public const int input_email = 2131427458;
+			
+			// aapt resource value: 0x7f0b0084
+			public const int input_message = 2131427460;
+			
+			// aapt resource value: 0x7f0b0081
+			public const int input_name = 2131427457;
+			
+			// aapt resource value: 0x7f0b008f
+			public const int input_password = 2131427471;
+			
+			// aapt resource value: 0x7f0b0083
+			public const int input_subject = 2131427459;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int item_touch_helper_previous_elevation = 2131427329;
+			
+			// aapt resource value: 0x7f0b0096
+			public const int label_author = 2131427478;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int label_date = 2131427479;
+			
+			// aapt resource value: 0x7f0b0089
+			public const int label_last_updated = 2131427465;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int label_message = 2131427454;
+			
+			// aapt resource value: 0x7f0b0098
+			public const int label_text = 2131427480;
+			
+			// aapt resource value: 0x7f0b0092
+			public const int label_title = 2131427474;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int label_version = 2131427475;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int left = 2131427355;
@@ -2424,20 +2631,26 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b002e
 			public const int light = 2131427374;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int line1 = 2131427473;
+			// aapt resource value: 0x7f0b00ad
+			public const int line1 = 2131427501;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int line3 = 2131427475;
+			// aapt resource value: 0x7f0b00af
+			public const int line3 = 2131427503;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int listMode = 2131427375;
 			
+			// aapt resource value: 0x7f0b0099
+			public const int list_attachments = 2131427481;
+			
+			// aapt resource value: 0x7f0b008d
+			public const int list_feedback_messages = 2131427469;
+			
 			// aapt resource value: 0x7f0b004c
 			public const int list_item = 2131427404;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int media_actions = 2131427461;
+			// aapt resource value: 0x7f0b00a1
+			public const int media_actions = 2131427489;
 			
 			// aapt resource value: 0x7f0b003f
 			public const int middle = 2131427391;
@@ -2448,8 +2661,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0038
 			public const int multiply = 2131427384;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int myButton = 2131427454;
+			// aapt resource value: 0x7f0b009a
+			public const int myButton = 2131427482;
 			
 			// aapt resource value: 0x7f0b0079
 			public const int navigation_header_container = 2131427449;
@@ -2463,14 +2676,14 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0024
 			public const int normal = 2131427364;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int notification_background = 2131427470;
+			// aapt resource value: 0x7f0b00aa
+			public const int notification_background = 2131427498;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int notification_main_column = 2131427464;
+			// aapt resource value: 0x7f0b00a4
+			public const int notification_main_column = 2131427492;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int notification_main_column_container = 2131427463;
+			// aapt resource value: 0x7f0b00a3
+			public const int notification_main_column_container = 2131427491;
 			
 			// aapt resource value: 0x7f0b0013
 			public const int parallax = 2131427347;
@@ -2493,11 +2706,11 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b001c
 			public const int right = 2131427356;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int right_icon = 2131427469;
+			// aapt resource value: 0x7f0b00a9
+			public const int right_icon = 2131427497;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int right_side = 2131427465;
+			// aapt resource value: 0x7f0b00a5
+			public const int right_side = 2131427493;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int screen = 2131427385;
@@ -2592,8 +2805,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b001d
 			public const int start = 2131427357;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int status_bar_latest_event_content = 2131427460;
+			// aapt resource value: 0x7f0b00a0
+			public const int status_bar_latest_event_content = 2131427488;
 			
 			// aapt resource value: 0x7f0b0062
 			public const int submenuarrow = 2131427426;
@@ -2604,11 +2817,11 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0030
 			public const int tabMode = 2131427376;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int text = 2131427476;
+			// aapt resource value: 0x7f0b00b0
+			public const int text = 2131427504;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int text2 = 2131427474;
+			// aapt resource value: 0x7f0b00ae
+			public const int text2 = 2131427502;
 			
 			// aapt resource value: 0x7f0b0056
 			public const int textSpacerNoButtons = 2131427414;
@@ -2616,8 +2829,11 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0055
 			public const int textSpacerNoTitle = 2131427413;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int time = 2131427466;
+			// aapt resource value: 0x7f0b008e
+			public const int text_headline = 2131427470;
+			
+			// aapt resource value: 0x7f0b00a6
+			public const int time = 2131427494;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int title = 2131427406;
@@ -2640,8 +2856,14 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0b0036
 			public const int useLogo = 2131427382;
 			
+			// aapt resource value: 0x7f0b0091
+			public const int view_header = 2131427473;
+			
 			// aapt resource value: 0x7f0b0000
 			public const int view_offset_helper = 2131427328;
+			
+			// aapt resource value: 0x7f0b0095
+			public const int web_update_details = 2131427477;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int wide = 2131427371;
@@ -2651,6 +2873,21 @@ namespace RebuyApp.Droid
 			
 			// aapt resource value: 0x7f0b003d
 			public const int wrap_content = 2131427389;
+			
+			// aapt resource value: 0x7f0b0085
+			public const int wrapper_attachments = 2131427461;
+			
+			// aapt resource value: 0x7f0b0080
+			public const int wrapper_feedback = 2131427456;
+			
+			// aapt resource value: 0x7f0b007f
+			public const int wrapper_feedback_scroll = 2131427455;
+			
+			// aapt resource value: 0x7f0b0088
+			public const int wrapper_messages = 2131427464;
+			
+			// aapt resource value: 0x7f0b008a
+			public const int wrapper_messages_buttons = 2131427466;
 			
 			static Id()
 			{
@@ -2811,64 +3048,82 @@ namespace RebuyApp.Droid
 			public const int design_navigation_menu_item = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int Main = 2130968614;
+			public const int hockeyapp_activity_expiry_info = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int notification_action = 2130968615;
+			public const int hockeyapp_activity_feedback = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_action_tombstone = 2130968616;
+			public const int hockeyapp_activity_login = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_media_action = 2130968617;
+			public const int hockeyapp_activity_update = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_media_cancel_action = 2130968618;
+			public const int hockeyapp_fragment_update = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_big_media = 2130968619;
+			public const int hockeyapp_view_feedback_message = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_big_media_custom = 2130968620;
+			public const int Main = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media_narrow = 2130968621;
+			public const int notification_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_narrow_custom = 2130968622;
+			public const int notification_action_tombstone = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_custom_big = 2130968623;
+			public const int notification_media_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_icon_group = 2130968624;
+			public const int notification_media_cancel_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_lines_media = 2130968625;
+			public const int notification_template_big_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_media = 2130968626;
+			public const int notification_template_big_media_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_media_custom = 2130968627;
+			public const int notification_template_big_media_narrow = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_part_chronometer = 2130968628;
+			public const int notification_template_big_media_narrow_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_part_time = 2130968629;
+			public const int notification_template_custom_big = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int select_dialog_item_material = 2130968630;
+			public const int notification_template_icon_group = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int select_dialog_multichoice_material = 2130968631;
+			public const int notification_template_lines_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int select_dialog_singlechoice_material = 2130968632;
+			public const int notification_template_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int support_simple_spinner_dropdown_item = 2130968633;
+			public const int notification_template_media_custom = 2130968633;
+			
+			// aapt resource value: 0x7f04003a
+			public const int notification_template_part_chronometer = 2130968634;
+			
+			// aapt resource value: 0x7f04003b
+			public const int notification_template_part_time = 2130968635;
+			
+			// aapt resource value: 0x7f04003c
+			public const int select_dialog_item_material = 2130968636;
+			
+			// aapt resource value: 0x7f04003d
+			public const int select_dialog_multichoice_material = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int select_dialog_singlechoice_material = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int support_simple_spinner_dropdown_item = 2130968639;
 			
 			static Layout()
 			{
@@ -3008,8 +3263,8 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0c0025
 			public const int abc_toolbar_collapse_description = 2131492901;
 			
-			// aapt resource value: 0x7f0c0036
-			public const int app_name = 2131492918;
+			// aapt resource value: 0x7f0c007d
+			public const int app_name = 2131492989;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int appbar_scrolling_view_behavior = 2131492864;
@@ -3068,8 +3323,221 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f0c0011
 			public const int common_signin_button_text_long = 2131492881;
 			
+			// aapt resource value: 0x7f0c007c
+			public const int hello = 2131492988;
+			
 			// aapt resource value: 0x7f0c0035
-			public const int hello = 2131492917;
+			public const int hockeyapp_crash_dialog_app_name_fallback = 2131492917;
+			
+			// aapt resource value: 0x7f0c0036
+			public const int hockeyapp_crash_dialog_message = 2131492918;
+			
+			// aapt resource value: 0x7f0c0037
+			public const int hockeyapp_crash_dialog_negative_button = 2131492919;
+			
+			// aapt resource value: 0x7f0c0038
+			public const int hockeyapp_crash_dialog_neutral_button = 2131492920;
+			
+			// aapt resource value: 0x7f0c0039
+			public const int hockeyapp_crash_dialog_positive_button = 2131492921;
+			
+			// aapt resource value: 0x7f0c003a
+			public const int hockeyapp_crash_dialog_title = 2131492922;
+			
+			// aapt resource value: 0x7f0c003b
+			public const int hockeyapp_dialog_error_message = 2131492923;
+			
+			// aapt resource value: 0x7f0c003c
+			public const int hockeyapp_dialog_error_title = 2131492924;
+			
+			// aapt resource value: 0x7f0c003d
+			public const int hockeyapp_dialog_negative_button = 2131492925;
+			
+			// aapt resource value: 0x7f0c003e
+			public const int hockeyapp_dialog_positive_button = 2131492926;
+			
+			// aapt resource value: 0x7f0c003f
+			public const int hockeyapp_download_failed_dialog_message = 2131492927;
+			
+			// aapt resource value: 0x7f0c0040
+			public const int hockeyapp_download_failed_dialog_negative_button = 2131492928;
+			
+			// aapt resource value: 0x7f0c0041
+			public const int hockeyapp_download_failed_dialog_positive_button = 2131492929;
+			
+			// aapt resource value: 0x7f0c0042
+			public const int hockeyapp_download_failed_dialog_title = 2131492930;
+			
+			// aapt resource value: 0x7f0c0043
+			public const int hockeyapp_error_no_network_message = 2131492931;
+			
+			// aapt resource value: 0x7f0c0044
+			public const int hockeyapp_expiry_info_text = 2131492932;
+			
+			// aapt resource value: 0x7f0c0045
+			public const int hockeyapp_expiry_info_title = 2131492933;
+			
+			// aapt resource value: 0x7f0c0046
+			public const int hockeyapp_feedback_attach_file = 2131492934;
+			
+			// aapt resource value: 0x7f0c0047
+			public const int hockeyapp_feedback_attach_picture = 2131492935;
+			
+			// aapt resource value: 0x7f0c0048
+			public const int hockeyapp_feedback_attachment_button_text = 2131492936;
+			
+			// aapt resource value: 0x7f0c0049
+			public const int hockeyapp_feedback_attachment_error = 2131492937;
+			
+			// aapt resource value: 0x7f0c004a
+			public const int hockeyapp_feedback_attachment_loading = 2131492938;
+			
+			// aapt resource value: 0x7f0c004b
+			public const int hockeyapp_feedback_email_hint = 2131492939;
+			
+			// aapt resource value: 0x7f0c004c
+			public const int hockeyapp_feedback_failed_text = 2131492940;
+			
+			// aapt resource value: 0x7f0c004d
+			public const int hockeyapp_feedback_failed_title = 2131492941;
+			
+			// aapt resource value: 0x7f0c004e
+			public const int hockeyapp_feedback_fetching_feedback_text = 2131492942;
+			
+			// aapt resource value: 0x7f0c004f
+			public const int hockeyapp_feedback_generic_error = 2131492943;
+			
+			// aapt resource value: 0x7f0c0050
+			public const int hockeyapp_feedback_last_updated_text = 2131492944;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int hockeyapp_feedback_max_attachments_allowed = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int hockeyapp_feedback_message_hint = 2131492946;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int hockeyapp_feedback_name_hint = 2131492947;
+			
+			// aapt resource value: 0x7f0c0054
+			public const int hockeyapp_feedback_refresh_button_text = 2131492948;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int hockeyapp_feedback_response_button_text = 2131492949;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int hockeyapp_feedback_select_file = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int hockeyapp_feedback_select_picture = 2131492951;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int hockeyapp_feedback_send_button_text = 2131492952;
+			
+			// aapt resource value: 0x7f0c0059
+			public const int hockeyapp_feedback_send_generic_error = 2131492953;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int hockeyapp_feedback_send_network_error = 2131492954;
+			
+			// aapt resource value: 0x7f0c005b
+			public const int hockeyapp_feedback_sending_feedback_text = 2131492955;
+			
+			// aapt resource value: 0x7f0c005c
+			public const int hockeyapp_feedback_subject_hint = 2131492956;
+			
+			// aapt resource value: 0x7f0c005d
+			public const int hockeyapp_feedback_title = 2131492957;
+			
+			// aapt resource value: 0x7f0c005e
+			public const int hockeyapp_feedback_validate_email_empty = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int hockeyapp_feedback_validate_email_error = 2131492959;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int hockeyapp_feedback_validate_name_error = 2131492960;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int hockeyapp_feedback_validate_subject_error = 2131492961;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int hockeyapp_feedback_validate_text_error = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int hockeyapp_login_email_hint = 2131492963;
+			
+			// aapt resource value: 0x7f0c0064
+			public const int hockeyapp_login_headline_text = 2131492964;
+			
+			// aapt resource value: 0x7f0c0065
+			public const int hockeyapp_login_headline_text_email_only = 2131492965;
+			
+			// aapt resource value: 0x7f0c0066
+			public const int hockeyapp_login_login_button_text = 2131492966;
+			
+			// aapt resource value: 0x7f0c0067
+			public const int hockeyapp_login_missing_credentials_toast = 2131492967;
+			
+			// aapt resource value: 0x7f0c0068
+			public const int hockeyapp_login_password_hint = 2131492968;
+			
+			// aapt resource value: 0x7f0c0069
+			public const int hockeyapp_paint_dialog_message = 2131492969;
+			
+			// aapt resource value: 0x7f0c006a
+			public const int hockeyapp_paint_dialog_negative_button = 2131492970;
+			
+			// aapt resource value: 0x7f0c006b
+			public const int hockeyapp_paint_dialog_neutral_button = 2131492971;
+			
+			// aapt resource value: 0x7f0c006c
+			public const int hockeyapp_paint_dialog_positive_button = 2131492972;
+			
+			// aapt resource value: 0x7f0c006d
+			public const int hockeyapp_paint_indicator_toast = 2131492973;
+			
+			// aapt resource value: 0x7f0c006e
+			public const int hockeyapp_paint_menu_clear = 2131492974;
+			
+			// aapt resource value: 0x7f0c006f
+			public const int hockeyapp_paint_menu_save = 2131492975;
+			
+			// aapt resource value: 0x7f0c0070
+			public const int hockeyapp_paint_menu_undo = 2131492976;
+			
+			// aapt resource value: 0x7f0c0071
+			public const int hockeyapp_permission_dialog_negative_button = 2131492977;
+			
+			// aapt resource value: 0x7f0c0072
+			public const int hockeyapp_permission_dialog_positive_button = 2131492978;
+			
+			// aapt resource value: 0x7f0c0073
+			public const int hockeyapp_permission_update_message = 2131492979;
+			
+			// aapt resource value: 0x7f0c0074
+			public const int hockeyapp_permission_update_title = 2131492980;
+			
+			// aapt resource value: 0x7f0c0075
+			public const int hockeyapp_update_button = 2131492981;
+			
+			// aapt resource value: 0x7f0c0076
+			public const int hockeyapp_update_dialog_message = 2131492982;
+			
+			// aapt resource value: 0x7f0c0077
+			public const int hockeyapp_update_dialog_negative_button = 2131492983;
+			
+			// aapt resource value: 0x7f0c0078
+			public const int hockeyapp_update_dialog_positive_button = 2131492984;
+			
+			// aapt resource value: 0x7f0c0079
+			public const int hockeyapp_update_dialog_title = 2131492985;
+			
+			// aapt resource value: 0x7f0c007a
+			public const int hockeyapp_update_mandatory_toast = 2131492986;
+			
+			// aapt resource value: 0x7f0c007b
+			public const int hockeyapp_update_version_details_label = 2131492987;
 			
 			// aapt resource value: 0x7f0c0034
 			public const int library_name = 2131492916;
@@ -3564,6 +4032,15 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f070001
 			public const int Base_Widget_Design_TabLayout = 2131165185;
 			
+			// aapt resource value: 0x7f070170
+			public const int HockeyApp_ButtonStyle = 2131165552;
+			
+			// aapt resource value: 0x7f070171
+			public const int HockeyApp_EditTextStyle = 2131165553;
+			
+			// aapt resource value: 0x7f070172
+			public const int HockeyApp_SingleLineInputStyle = 2131165554;
+			
 			// aapt resource value: 0x7f07002f
 			public const int Platform_AppCompat = 2131165231;
 			
@@ -3606,11 +4083,11 @@ namespace RebuyApp.Droid
 			// aapt resource value: 0x7f070033
 			public const int Platform_Widget_AppCompat_Spinner = 2131165235;
 			
-			// aapt resource value: 0x7f070170
-			public const int ReBuyTheme = 2131165552;
+			// aapt resource value: 0x7f070173
+			public const int ReBuyTheme = 2131165555;
 			
-			// aapt resource value: 0x7f070171
-			public const int ReBuyTheme_Base = 2131165553;
+			// aapt resource value: 0x7f070174
+			public const int ReBuyTheme_Base = 2131165556;
 			
 			// aapt resource value: 0x7f070042
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131165250;

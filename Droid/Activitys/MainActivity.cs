@@ -3,11 +3,13 @@ using Android.Widget;
 using Android.OS;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using RebuyApp.ViewModels.Common;
+using HockeyApp.Android;
+using HockeyApp.Android.Metrics;
 
 namespace RebuyApp.Droid.Activitys
 {
     [Activity(
-        Label = "Rebuy", 
+        Label = "Rebuy",
         MainLauncher = true,
         Theme = "@style/ReBuyTheme",
         Icon = "@mipmap/icon"
@@ -19,6 +21,10 @@ namespace RebuyApp.Droid.Activitys
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+
+            //HockeyApp Registration
+            CrashManager.Register(this, "3781ea023ebb4f6290c6f587aae44b44");
+            MetricsManager.Register(Application, "3781ea023ebb4f6290c6f587aae44b44");
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);

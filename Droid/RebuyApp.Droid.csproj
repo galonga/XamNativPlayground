@@ -149,6 +149,12 @@
     <Reference Include="Xamarin.GooglePlayServices.Analytics">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Analytics.42.1001.0\lib\MonoAndroid70\Xamarin.GooglePlayServices.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="HockeySDK.AndroidBindings">
+      <HintPath>..\packages\HockeySDK.Xamarin.4.1.2\lib\MonoAndroid403\HockeySDK.AndroidBindings.dll</HintPath>
+    </Reference>
+    <Reference Include="HockeySDK">
+      <HintPath>..\packages\HockeySDK.Xamarin.4.1.2\lib\MonoAndroid403\HockeySDK.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RebuyApp\RebuyApp.csproj">
