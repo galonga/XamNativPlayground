@@ -279,6 +279,11 @@
     <AndroidResource Include="Resources\menu\navigation_drawer.axml" />
     <AndroidResource Include="Resources\layout\fragment_menu.axml" />
     <AndroidResource Include="Resources\layout\fragment_menuheader.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\launcher_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\launcher_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\launcher_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\launcher_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\launcher_icon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
