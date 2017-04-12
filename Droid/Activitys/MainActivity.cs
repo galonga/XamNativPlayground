@@ -1,10 +1,20 @@
 ﻿using Android.App;
-using Android.Widget;
+using Android.Content;
+using Android.Content.PM;
+using Android.Content.Res;
 using Android.OS;
+using Android.Runtime;
+using Android.Support.Design.Widget;
+using Android.Support.V4.View;
+using Android.Support.V4.Widget;
+using Android.Support.V7.App;
+using Android.Views;
 using MvvmCross.Droid.Support.V7.AppCompat;
-using RebuyApp.ViewModels.Common;
-using HockeyApp.Android;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
 using HockeyApp.Android.Metrics;
+using CrashManager = HockeyApp.Android.CrashManager;
+using SearchView = Android.Support.V7.Widget.SearchView;
+using RebuyApp.ViewModels.Common;
 
 namespace RebuyApp.Droid.Activitys
 {
@@ -16,7 +26,11 @@ namespace RebuyApp.Droid.Activitys
     )]
     public class MainActivity : MvxCachingFragmentCompatActivity<MainViewModel>
     {
-        int count = 1;
+        private ActionBarDrawerToggle drawerToggle;
+        private NavigationView navigationView;
+        private Toolbar toolbar;
+        private NavigationView.IOnNavigationItemSelectedListener selectDrawerItem;
+        private SearchView searchView;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -29,11 +43,7 @@ namespace RebuyApp.Droid.Activitys
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
-
-            button.Click += delegate { button.Text = $"{count++} clicks!"; };
+            //toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
         }
     }
 }

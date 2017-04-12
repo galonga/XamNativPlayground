@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-
   <color name="colorPrimary" type="color">#03A9F4</color>
   <color name="colorPrimaryDark" type="color">#0288D1</color>
   <color name="colorPrimarySuperDark" type="color">#31698A</color>
@@ -12,5 +11,4 @@
   <color name="divider" type="color">#BDBDBD</color>
   <color name="white" type="color">#FFFFFF</color>
   <color name="splash_background" type="color">#512DA8</color>
- 
 </resources> 
