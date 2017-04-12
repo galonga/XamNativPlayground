@@ -109,4 +109,40 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = MSBuild
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.NoTabsAfterNonTabs = True
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.IndentSwitchSection = True
+		$3.NewLineForMembersInObjectInit = True
+		$3.NewLineForMembersInAnonymousTypes = True
+		$3.NewLineForClausesInQuery = True
+		$3.SpacingAfterMethodDeclarationName = False
+		$3.SpaceAfterMethodCallName = False
+		$3.SpaceBeforeOpenSquareBracket = False
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 120
+		$4.NoTabsAfterNonTabs = True
+		$4.inheritsSet = VisualStudio
+		$4.inheritsScope = text/plain
+		$4.scope = application/xml
+		$0.XmlFormattingPolicy = $5
+		$5.DefaultFormat = $6
+		$6.ContentIndentString = "    "
+		$6.AttributesIndentString = "    "
+		$5.inheritsSet = Mono
+		$5.inheritsScope = application/xml
+		$5.scope = application/xml
+	EndGlobalSection
 EndGlobal

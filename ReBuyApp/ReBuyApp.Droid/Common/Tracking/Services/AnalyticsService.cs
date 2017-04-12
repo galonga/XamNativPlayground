@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using Android.Content;
 using Android.Gms.Analytics;
-using Android.Gms.Analytics.Ecommerce;
+using GaHitBuilders = Android.Gms.Analytics.HitBuilders;
 using RebuyApp.Droid.Common.Tracking.Mapper;
 using ReBuyApp.Core.Common.Exceptions;
 using ReBuyApp.Core.Common.Tracking.Models;
+using ReBuyApp.Core.Common.Tracking.Enums;
+using Android.Gms.Analytics.Ecommerce;
 using ReBuyApp.Core.Common.Tracking.Services;
 
 namespace RebuyApp.Droid.Common.Tracking.Services
@@ -97,7 +99,7 @@ namespace RebuyApp.Droid.Common.Tracking.Services
         {
             analyticsTracker.SetScreenName(screenName);
 
-            var builder = new HitBuilders.ScreenViewBuilder();
+            var builder = new GaHitBuilders.ScreenViewBuilder();
 
             if (customDimensions?.Count > 0)
                 foreach (var customDimension in customDimensions)
@@ -136,7 +138,7 @@ namespace RebuyApp.Droid.Common.Tracking.Services
             List<CustomMetric> customMetrics
         )
         {
-            var builder = new HitBuilders.EventBuilder()
+            var builder = new GaHitBuilders.EventBuilder()
                                          .SetCategory(eventData.EventCategory)
                                          .SetAction(eventData.EventAction);
 
@@ -163,7 +165,7 @@ namespace RebuyApp.Droid.Common.Tracking.Services
         )
         {
             analyticsTracker.Send(
-                new HitBuilders.ExceptionBuilder()
+                new GaHitBuilders.ExceptionBuilder()
                 .SetDescription(ExceptionMessage)
                 .SetFatal(isFatalException)
                 .Build()
@@ -177,7 +179,7 @@ namespace RebuyApp.Droid.Common.Tracking.Services
         )
         {
             analyticsTracker.Send(
-                new HitBuilders.SocialBuilder()
+                new GaHitBuilders.SocialBuilder()
                 .SetNetwork(socialNetworkName)
                 .SetAction(socialAction)
                 .SetTarget(socialTarget)
@@ -193,7 +195,7 @@ namespace RebuyApp.Droid.Common.Tracking.Services
         )
         {
             analyticsTracker.Send(
-                new HitBuilders.TimingBuilder()
+                new GaHitBuilders.TimingBuilder()
                 .SetCategory(categroy)
                 .SetLabel(label)
                 .SetValue(value)
@@ -212,7 +214,7 @@ namespace RebuyApp.Droid.Common.Tracking.Services
         {
             if (!string.IsNullOrWhiteSpace(userid)) {
                 analyticsTracker.Set("&uid", userid);
-                var builder = new HitBuilders.EventBuilder();
+                var builder = new GaHitBuilders.EventBuilder();
                 analyticsTracker.Send(builder.Build());
             }
         }
