@@ -53,6 +53,7 @@
     <Compile Include="Common\Tracking\Models\ProductData.cs" />
     <Compile Include="Common\Tracking\Models\PromotionData.cs" />
     <Compile Include="Common\Tracking\Services\IAnalyticsService.cs" />
+    <Compile Include="ViewModels\IMainViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

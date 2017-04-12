@@ -10,6 +10,10 @@ using MvvmCross.Droid.Views;
 using MvvmCross.Platform;
 using MvvmCross.Platform.Droid.Platform;
 using MvvmCross.Platform.Platform;
+using RebuyApp.Droid.Common.Dialogs.Services;
+using RebuyApp.Droid.Common.Tracking.Services;
+using ReBuyApp.Core.Common.Dialogs;
+using ReBuyApp.Core.Common.Tracking.Services;
 
 namespace ReBuyApp.Droid
 {
@@ -51,6 +55,14 @@ namespace ReBuyApp.Droid
         {
             MvxAppCompatSetupHelper.FillTargetFactories(registry);
             base.FillTargetFactories(registry);
+        }
+
+        protected override void InitializeLastChance()
+        {
+            base.InitializeLastChance();
+            Mvx.ConstructAndRegisterSingleton<IDialogService, DialogService>();
+            Mvx.ConstructAndRegisterSingleton<IAnalyticsService, AnalyticsService>();
+            //Mvx.ConstructAndRegisterSingleton<IShareService, ShareService>();
         }
     }
 }
