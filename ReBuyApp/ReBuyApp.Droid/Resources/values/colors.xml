@@ -11,6 +11,7 @@
     <color name="gray">#5C7082</color>
     <color name="dark_gray">#FF2B343D</color>
     <color name="black">#0D131A</color>
+    <color name="orange">#f97710</color>
     <!--Specific Color-->
     <!--Text Color-->
 </resources>
