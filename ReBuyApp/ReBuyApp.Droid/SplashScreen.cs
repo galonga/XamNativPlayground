@@ -1,5 +1,7 @@
 using Android.App;
 using Android.Content.PM;
+using Android.Views.Animations;
+using Android.Widget;
 using MvvmCross.Droid.Views;
 
 namespace ReBuyApp.Droid

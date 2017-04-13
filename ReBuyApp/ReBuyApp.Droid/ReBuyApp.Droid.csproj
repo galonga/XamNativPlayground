@@ -284,6 +284,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\launcher_icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\launcher_icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\launcher_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reBuy_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
@@ -309,6 +310,7 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Resources\anim\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
