@@ -7,12 +7,13 @@ using MvvmCross.Droid.Views;
 namespace ReBuyApp.Droid
 {
     [Activity(
-        Label = "reBuy X-Native"
-        , MainLauncher = true
-        , Icon = "@mipmap/ic_launcher"
-        , RoundIcon = "@mipmap/ic_launcher_round"
-        , Theme = "@style/AppTheme.Splash"
-        , NoHistory = true)]
+        Label = "reBuy X-Native",
+        MainLauncher = true,
+        Icon = "@mipmap/ic_launcher",
+        RoundIcon = "@mipmap/ic_launcher_round",
+        Theme = "@style/AppTheme.Splash",
+        NoHistory = true
+    )]
     public class SplashScreen : MvxSplashScreenActivity
     {
         public SplashScreen()
