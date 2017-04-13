@@ -144,5 +144,25 @@ Global
 		$5.inheritsSet = Mono
 		$5.inheritsScope = application/xml
 		$5.scope = application/xml
+		$0.TextStylePolicy = $7
+		$7.FileWidth = 120
+		$7.TabsToSpaces = False
+		$7.inheritsSet = VisualStudio
+		$7.inheritsScope = text/plain
+		$7.scope = text/plain
+		$0.TextStylePolicy = $8
+		$8.FileWidth = 120
+		$8.NoTabsAfterNonTabs = True
+		$8.inheritsSet = VisualStudio
+		$8.inheritsScope = text/plain
+		$8.scope = application/android+xml
+		$0.XmlFormattingPolicy = $9
+		$9.DefaultFormat = $10
+		$10.ContentIndentString = "    "
+		$10.AttributesInNewLine = True
+		$10.AttributesIndentString = "    "
+		$9.inheritsSet = Mono
+		$9.inheritsScope = application/xml
+		$9.scope = application/android+xml
 	EndGlobalSection
 EndGlobal
