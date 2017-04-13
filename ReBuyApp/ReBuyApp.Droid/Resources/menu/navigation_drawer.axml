@@ -4,23 +4,23 @@
         <item android:id="@+id/nav_home" android:title="Home" />
     </group>
     <item>
-        <menu>
+        <group android:id="@+id/nav_buy" android:title="Kaufen" >
             <item android:id="@+id/nav_example1" android:title="Meine Einkäufe" />
             <item android:id="@+id/nav_example2" android:title="Merkzettel" />
             <item android:id="@+id/nav_example3" android:title="Kaufalarm" />
-        </menu>
+        </group>
     </item>
     <item>
-        <menu>
+        <group android:id="@+id/nav_sell" android:title="Verkaufen" >
             <item android:id="@+id/nav_example4" android:title="Meine Verkäufe" />
             <item android:id="@+id/nav_example5" android:title="Verkaufscenter" />
-        </menu>
+        </group>
     </item>
-    <item android:id="@+id/nav_footer">
-        <menu>
+    <item>
+        <group android:id="@+id/nav_footer" android:title="Service">
             <item android:id="@+id/nav_shopfinder" android:title="Hermes Paket Shop Finder" />
             <item android:id="@+id/nav_helpfeedback" android:title="Hilfe" />
             <item android:id="@+id/nav_settings" android:title="Settings" />
-        </menu>
+        </group>
     </item>
 </menu>
