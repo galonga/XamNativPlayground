@@ -7,7 +7,7 @@ using MvvmCross.Droid.Views;
 namespace ReBuyApp.Droid
 {
     [Activity(
-        Label = "ReBuyApp.Droid"
+        Label = "reBuy X-Native"
         , MainLauncher = true
         , Icon = "@mipmap/ic_launcher"
         , RoundIcon = "@mipmap/ic_launcher_round"
