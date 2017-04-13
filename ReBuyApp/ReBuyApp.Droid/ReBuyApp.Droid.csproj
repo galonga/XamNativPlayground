@@ -285,6 +285,10 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\launcher_icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\launcher_icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\reBuy_logo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\reBuy_logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reBuy_logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reBuy_logo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\reBuy_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
